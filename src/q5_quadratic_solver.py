@@ -3,6 +3,7 @@ import math
 
 def solve_quadratic(a: float, b: float, c: float):
     # TODO: 返回实根列表或 'No real roots'
+    # 提示：使用round(x, 1)保留x的小数点后1位。
     ...
 
 
