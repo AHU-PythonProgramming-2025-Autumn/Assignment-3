@@ -26,4 +26,4 @@ def test_float_coefficients():
 def test_non_quadratic_behavior():
     # 虽然不要求处理 a=0，但如果出现，程序应避免崩溃
     result = solve_quadratic(0, 2, 1)
-    pass
+    assert result == [-0.5]
